@@ -1,0 +1,169 @@
+h1 {
+    color: white;
+    font-size: 15px;
+    margin-top: 35px;
+    font-family: arponasans,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    transition: color .5s;
+    
+}
+
+h1:hover {
+          color: cadetblue;
+                    
+}
+
+a {
+    color: white;
+    transition: color .5s;
+    font-size: 12,5px;
+    font-family: arponasans,sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+a:hover {
+    color: #ee6c4d;
+}
+
+nav {
+    margin-top: 23px;
+    padding-left: 60px;
+    
+}
+
+footer {
+    font-family: arponasans,sans-serif;
+    text-align: left;
+    color: aliceblue;
+    margin-top: 80px;
+    font-size: 12px;
+    cursor: default;
+    
+}
+
+img {
+    
+    height: auto;
+    width: 100%;
+    margin-top: 80px;
+    margin-bottom: 0px;
+    margin-left: -15px;
+}
+
+@font-face {
+    font-family: SoundsGood;
+    src: local("Sounds Good"),
+    local("Sounds Good"),
+    url(soundsgood.ttf);
+ }
+
+ h2 {
+    font-family: "Sounds Good";
+    color: #eaac8b;
+    font-size: 50px;
+    text-align: center;
+    margin-left: -15px;
+    letter-spacing: 5px;
+    cursor: default;
+}
+
+
+#web {
+    color: #8e9aaf;
+    letter-spacing: 5px;
+    margin-top: 0px;
+}
+
+#web:hover {
+    cursor: url("omen.png"), 10 15, pointer;
+}
+
+#film {
+    color: #ee6c4d;
+    letter-spacing: 5px;
+    margin-top: 0px;
+}
+
+#video {
+    color: #4a4e69;
+    letter-spacing: 5px;
+    margin-top: 0px;
+}
+
+.social {
+	display: inline;
+    position: fixed;
+    width: 100%;
+	margin-left: 65%;
+    bottom: 0%;
+    top: 10;
+}
+
+.social ul.menuSocial {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-wrap: nowrap;
+	-ms-flex-wrap: nowrapwrap;
+	flex-wrap: nowrap;
+}
+
+.social ul.menuSocial li {
+	flex: 0 1 40px;
+	height: 40px;
+}
+
+#ig {
+    color: white;
+    transition: color .5s;
+
+}
+
+#ig:hover {
+    color: #ef476f;
+}
+
+#fb {
+    color: white;
+    transition: color .5s;
+}
+
+#fb:hover {
+    color: #457b9d;
+}
+
+#in {
+    color: white;
+    transition: color .5s;
+}
+
+#in:hover {
+    color: #00b4d8;
+}
+
+#yt {
+    color: white;
+    transition: color .5s;
+}
+
+#yt:hover {
+    color: #dd1c1a;
+}
+
+#gh {
+    color: white;
+    transition: color .5s;
+}
+
+#gh:hover {
+    color: grey;
+}
+
+
+
